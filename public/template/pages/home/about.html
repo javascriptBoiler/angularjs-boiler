@@ -1,0 +1,25 @@
+<div ng-controller="getApiDataController as Api">
+
+    <div class="container">
+        <h2>this page get data and show them from external api calling</h2>
+
+        <div>
+            <button class="btn btn-primary" data-ng-click="Api.requestData()">Call The Api</button>
+        </div>
+    </div>
+    <br><br>
+
+    <div class="container">
+        <h3>Get result from API call :</h3>
+        <ol>
+            <li>
+                <h4>User ID :</h4><p style="color:#2929eb">{{ result.id }}</p></li>
+            <li>
+                <h4>Title :</h4><p style="color:#2929eb">{{ result.title }}</p></li>
+            <li>
+                <h4>Discription :</h4><p style="color:#2929eb">{{ result.body }}</p></li>
+
+        </ol>
+    </div>
+
+</div>
