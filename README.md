@@ -1,5 +1,5 @@
 # angularjs-boiler
-simple and efficient angularjs boilerplate for web application.  
+simple and efficient angularjs boilerplate for web application development.  
 
 This angular boilerplate well structured on MVC architecture.</br> 
 It's really easy to learn and handle. 
