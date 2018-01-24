@@ -1,0 +1,26 @@
+.parent
+{
+    width: 100%;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.child
+{
+    display: inline-block;
+    margin: 2px;
+}
+
+/* .footer {
+    position: relative;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    background-color: #efefef;
+    text-align: center;
+  } */
+  
+  
+  
+  

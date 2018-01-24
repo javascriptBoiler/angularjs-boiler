@@ -1,0 +1,63 @@
+<!DOCTYPE html >
+<html>
+
+<head>
+	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+	<link rel="stylesheet" href="/template/pages/home/css/index.css">
+	<title>Tsting| multiple module in angular</title>
+</head>
+
+<body>
+
+	<!-- NAVIGATION -->
+	<div id="container">
+	<nav class="navbar navbar-inverse" role="navigation" style="margin-bottom: 0px; margin: 0;">
+		<div class="navbar-header">
+			<a class="navbar-brand" ui-sref="#">Angularjs boilerplate</a>
+		</div>
+		<ul class="nav navbar-nav">
+			<li>
+				<a ui-sref="home">Home</a>
+			</li>
+			<li>
+				<a ui-sref="about">tab 2</a>
+			</li>
+			<li>
+				<a ui-sref="page3">tab 3</a>
+			</li>
+		</ul>
+
+		<ul class="nav navbar-nav navbar-right">
+			<li>
+				<a href="#">
+					<span class="glyphicon glyphicon-user"></span> Sign Up</a>
+			</li>
+			<li style="padding-right: 40px">
+				<a href="#">
+					<span class="glyphicon glyphicon-log-in"></span> Login</a>
+			</li>
+		</ul>
+	</nav>
+
+	<!-- render each pages here -->
+	<div>
+	<ui-view>
+
+	</ui-view>
+	</div>
+
+</div>
+
+</body>
+
+
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.6/angular.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/1.0.3/angular-ui-router.js"></script>
+
+<script src="./angular/controller/ngcontroller.js"></script>
+<script src="./angular/servises/ngservises.js"></script>
+<script src="./angular/routes/ngroute.js"></script>
+<script src="./main.js"></script>
+
+</html>
