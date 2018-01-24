@@ -10,5 +10,5 @@ To start project <br>
 1- surf into the project folder<br>
 2- open the terminal at the project folder<br>
 3- simply run <code> npm install</code> <br>
-4- server will open at localhost:3000
+4- server will open at <code>localhost:3000</code>
  
