@@ -13,7 +13,7 @@
     	var home = {
             name: 'home',
             url: '/home',
-            templateUrl: '/public/template/pages/home/index.html',
+            templateUrl: '/template/pages/home/index.html',
             
         };
         $stateProvider.state(home);
@@ -22,7 +22,7 @@
         var about = {
             name: 'about',
             url: '/about',
-            templateUrl: '/public/template/pages/home/about.html',
+            templateUrl: '/template/pages/home/about.html',
             // controller:'ngMainController',
             
         };
@@ -35,10 +35,10 @@
         $stateProvider.state('page3', {
             url: '/page3',
             views: {
-                '': { templateUrl: '/public/template/pages/home/page3.html' },
+                '': { templateUrl: '/template/pages/home/page3.html' },
                 'columnOne@page3': { template: '<div"><h2>Hey this is module1</h2> <br><br> <p>this page render two module in same time. This is the first module and second one is in right hand side </p></dev>' },
                 'columnTwo@page3': { 
-                    templateUrl: '/public/template/pages/home/table.html',
+                    templateUrl: '/template/pages/home/table.html',
                     controller: 'tableController'
                 }
             }
@@ -47,12 +47,12 @@
         
         $stateProvider.state('home.mod1', {
             url: 'home/mod1',
-            templateUrl: '/public/template/pages/home/list.html',
+            templateUrl: '/template/pages/home/list.html',
             controller: 'listController'
         })
         $stateProvider.state('home.gallery', {
             url: 'home/gallery',
-            templateUrl: '/public/template/pages/home/galary.html',
+            templateUrl: '/template/pages/home/galary.html',
 
         })
         
