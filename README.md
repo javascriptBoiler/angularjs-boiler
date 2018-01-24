@@ -8,5 +8,7 @@ It's really easy to learn and handle.
 
 To start project <br>
 1- surf into the project folder<br>
-2- open the terminal in project folder<br>
-3- simply run <code>php -S localhost:3000<code> 
+2- open the terminal at the project folder<br>
+3- simply run <code> npm install</code> <br>
+4- server will open at localhost:3000
+ 
